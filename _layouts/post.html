@@ -1,0 +1,4 @@
+---
+layout: default
+---
+<section class="page-hero article-hero"><div class="shell"><a class="back-link" href="{{ '/articles/' | relative_url }}">← Articles & Notes</a><div class="eyebrow">{{ page.category | default: 'Article' }}</div><h1>{{ page.title }}</h1><div class="article-meta"><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time>{% if page.tags %}<span>·</span><span>{{ page.tags | join: ' · ' }}</span>{% endif %}</div>{% if page.excerpt_text %}<p class="page-intro">{{ page.excerpt_text }}</p>{% endif %}</div></section><section class="article-body"><div class="prose">{{ content }}</div></section>
