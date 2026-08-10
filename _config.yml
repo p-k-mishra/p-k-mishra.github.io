@@ -1,5 +1,5 @@
 title: "Pankaj K. Mishra"
-description: "Academic website of Pankaj K. Mishra — nonlinear control, constrained systems, approximation-free control, adaptive control and intelligent systems."
+description: "Pankaj K. Mishra — Assistant Professor, Department of Electrical Engineering, NIT Hamirpur. Research in nonlinear control, constrained systems, approximation-free control and adaptive control."
 url: "https://p-k-mishra.github.io"
 baseurl: ""
 email: "pmishra@nith.ac.in"
@@ -19,5 +19,3 @@ social:
 
 exclude:
   - README.md
-  - Gemfile
-  - Gemfile.lock

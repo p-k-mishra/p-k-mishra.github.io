@@ -11,8 +11,6 @@
   pages: 3417–3424
   month: May
   doi: 10.1109/TAC.2024.3519275
-  tags: [Approximation-free, Input constraints, Performance constraints, Unknown systems]
-  note: Feasibility-aware simultaneous prescription of performance and input constraints for unknown nonlinear systems.
   paper_url: https://doi.org/10.1109/TAC.2024.3519275
 - id: tcas2024
   year: 2024
@@ -27,8 +25,6 @@
   pages: 3081–3085
   month: June
   doi: 10.1109/TCSII.2024.3355065
-  tags: [Sliding mode, Unknown systems, Chattering-free, Robust control]
-  note: Continuous-time quasi-sliding control without explicit approximation of unknown dynamics.
   paper_url: https://doi.org/10.1109/TCSII.2024.3355065
 - id: lcss2023
   year: 2023
@@ -43,8 +39,6 @@
   pages: 1261–1266
   month: ''
   doi: 10.1109/LCSYS.2022.3233723
-  tags: [Prescribed performance, Input constraints, Low-complexity, Approximation-free]
-  note: A low-complexity approximation-free controller with an analytical feasibility condition.
   paper_url: https://doi.org/10.1109/LCSYS.2022.3233723
 - id: tcas2022
   year: 2022
@@ -59,8 +53,6 @@
   pages: 2236–2240
   month: April
   doi: 10.1109/TCSII.2021.3129254
-  tags: [Pure state constraints, Adaptive control, Disturbance observer, Backstepping]
-  note: Robust adaptive backstepping for state constraints depending explicitly on time and state variables.
   paper_url: https://doi.org/10.1109/TCSII.2021.3129254
 - id: icc2022
   year: 2022
@@ -75,8 +67,6 @@
   pages: 212–217
   month: December
   doi: 10.1109/ICC56513.2022.10093463
-  tags: [Prescribed performance, Input constraints, Unknown systems]
-  note: Conference precursor developing feasibility ideas for simultaneous performance and input constraints.
   paper_url: https://doi.org/10.1109/ICC56513.2022.10093463
 - id: tcyb2021
   year: 2021
@@ -91,8 +81,6 @@
   pages: 2042–2054
   month: April
   doi: 10.1109/TCYB.2019.2923849
-  tags: [Adaptive neural control, MIMO, Nonaffine systems, State constraints]
-  note: Barrier-Lyapunov and neural-network based adaptive control for constrained interconnected MIMO systems.
   paper_url: https://doi.org/10.1109/TCYB.2019.2923849
 - id: tetci2019
   year: 2019
@@ -107,8 +95,6 @@
   pages: 322–336
   month: August
   doi: 10.1109/TETCI.2018.2865205
-  tags: [Path tracking, Adaptive control, Cyber-physical systems, Multisampling]
-  note: Vision-based automated vehicle path tracking with adaptive control and multisampling data transmission.
   paper_url: https://doi.org/10.1109/TETCI.2018.2865205
 - id: springer2019
   year: 2019
@@ -123,6 +109,4 @@
   pages: 265–277
   month: ''
   doi: 10.1007/978-981-13-1135-2_21
-  tags: [AGV, Vision, Neural networks, Fuzzy systems, Adaptive control]
-  note: Adaptive intelligent control for vision-based path tracking of an automated guided vehicle.
   paper_url: https://doi.org/10.1007/978-981-13-1135-2_21
