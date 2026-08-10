@@ -1,0 +1,23 @@
+title: "Pankaj K. Mishra"
+description: "Academic website of Pankaj K. Mishra — nonlinear control, constrained systems, approximation-free control, adaptive control and intelligent systems."
+url: "https://p-k-mishra.github.io"
+baseurl: ""
+email: "pmishra@nith.ac.in"
+profile_image: "https://lh3.googleusercontent.com/sitesv/AG8ngQX-fkGgESGcDx8MsfVA08Ry0WvrIK2lai_qbJvbvgCVw8m6DJShDnsbTlQ5ZAR_jKZ3dLEK_Gy0S8AqTl6f4zm_fXvGaXNh24KHMd42VcOeHNTAY7-qbgiPb_Hz_5qnWSBY540hN17-j4xgWyDBILzCVUrHP-2rw2572aagQfQxLOQ3VRNZBK4pw9Y3=w1280"
+cv_url: "https://drive.google.com/file/d/10WOdCxXi2E4L8yb0O4mQFAP32zgaMJrr/view?usp=share_link"
+markdown: kramdown
+permalink: /articles/:year/:month/:day/:title/
+future: false
+
+social:
+  scholar: "https://scholar.google.com/citations?user=0U00q7MAAAAJ&hl=en"
+  researchgate: "https://www.researchgate.net/profile/Pankaj-Mishra-18"
+  linkedin: "https://www.linkedin.com/in/pkmishra1991"
+  github: "https://github.com/p-k-mishra"
+  whatsapp: "https://api.whatsapp.com/send/?phone=919101514943&text&type=phone_number&app_absent=0"
+  orcid: "https://orcid.org/0000-0003-4037-6769"
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
