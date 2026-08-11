@@ -4,4 +4,17 @@ title: Profile
 permalink: /about/
 description: "Academic profile of Pankaj K. Mishra."
 ---
-<section class="page-hero"><div class="container"><div class="section-label">Academic profile</div><h1>Profile</h1><p>Assistant Professor in the Department of Electrical Engineering at the National Institute of Technology Hamirpur.</p></div></section><section class="page-body"><div class="container"><div class="research-feature"><div class="research-image" style="background:#e9edf0"><img src="{{ site.profile_image | relative_url }}" alt="Pankaj K. Mishra" style="height:100%;max-width:100%;width:100%;object-fit:cover;border-radius:22px;box-shadow:none"></div><div class="research-copy"><div class="number">About</div><h2>Pankaj K. Mishra</h2><p>My work broadly lies in nonlinear and constrained control, adaptive and intelligent control, approximation-free control and mathematical control theory.</p><p><a class="button primary" href="{{ site.cv_url }}" target="_blank">Download CV</a></p></div></div><div class="prose"><h2>Education</h2><p><strong>Ph.D., Electrical Engineering (Control and Automation)</strong><br>Indian Institute of Technology Kanpur, 2016-2022<br>Thesis: <em>Adaptive Control of State Constrained Nonlinear System</em></p><p><strong>M.Tech., Control and Instrumentation</strong><br>Motilal Nehru National Institute of Technology Allahabad, 2014-2016<br>Thesis: <em>Nonlinear System Identification and Control Using Neural Network</em></p><p><strong>B.E., Electrical Engineering</strong><br>Jorhat Engineering College, 2009-2013</p><h2>Academic experience</h2><p><strong>Assistant Professor</strong>, National Institute of Technology Hamirpur, September 2023-present.</p><p><strong>Research Associate</strong>, Robert Bosch Centre for Cyber-Physical Systems, Indian Institute of Science, Bangalore, April 2022-August 2023.</p><h2>Professional service</h2><p>Reviewer for IEEE Transactions on Cybernetics, IEEE Transactions on Automatic Control, and IEEE Transactions on Circuits and Systems I.</p></div></div></section>
+<section class="compact-page profile-page"><div class="container">
+  <div class="compact-page-head"><div><div class="section-label">Academic profile</div><h1>Profile</h1></div><a class="button primary" href="{{ site.cv_url }}" target="_blank">Download CV</a></div>
+  <div class="profile-compact-grid">
+    <article class="profile-summary-card"><img src="{{ site.profile_image | relative_url }}" alt="Pankaj K. Mishra"><div><h2>Pankaj K. Mishra</h2><p>Assistant Professor, Department of Electrical Engineering, NIT Hamirpur.</p><p>Research: nonlinear and constrained control, approximation-free control, adaptive and intelligent control, mathematical control theory.</p></div></article>
+    <div class="profile-facts">
+      <article><span>Current position</span><strong>NIT Hamirpur</strong><p>Assistant Professor · 2023-present</p></article>
+      <article><span>Postdoctoral research</span><strong>Indian Institute of Science</strong><p>RBCCPS · 2022-2023</p></article>
+      <article><span>Ph.D.</span><strong>IIT Kanpur</strong><p>Control & Automation · 2016-2022</p></article>
+      <article><span>M.Tech.</span><strong>MNNIT Allahabad</strong><p>Control & Instrumentation · 2014-2016</p></article>
+      <article><span>B.E.</span><strong>Jorhat Engineering College</strong><p>Electrical Engineering · 2009-2013</p></article>
+      <article><span>Professional service</span><strong>IEEE reviewer</strong><p>TCYB · TAC · TCAS-I</p></article>
+    </div>
+  </div>
+</div></section>
