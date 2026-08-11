@@ -19,10 +19,7 @@
 <body>
 <header class="site-header">
   <div class="container navbar">
-    <a class="brand" href="{{ '/' | relative_url }}">
-      <span class="brand-monogram">PKM</span>
-      <span><strong>Pankaj K. Mishra</strong><small>Control Systems · NIT Hamirpur</small></span>
-    </a>
+    <a class="brand" href="{{ '/' | relative_url }}"><span class="brand-monogram">PKM</span><span><strong>Pankaj K. Mishra</strong><small>NIT Hamirpur · Control Systems</small></span></a>
     <button class="menu-button" aria-label="Open navigation" aria-expanded="false">☰</button>
     <nav class="nav-links">
       <a href="{{ '/' | relative_url }}" {% if page.url == '/' %}class="active"{% endif %}>Home</a>
@@ -37,13 +34,7 @@
   </div>
 </header>
 <main>{{ content }}</main>
-<footer class="site-footer">
-  <div class="container footer-grid">
-    <div><div class="footer-name">Pankaj K. Mishra</div><p>Assistant Professor<br>Department of Electrical Engineering<br>National Institute of Technology Hamirpur, India</p></div>
-    <div class="footer-contact"><a href="mailto:{{ site.email }}">{{ site.email }}</a><a href="{{ site.social.scholar }}" target="_blank">Google Scholar ↗</a><a href="{{ site.social.linkedin }}" target="_blank">LinkedIn ↗</a><a href="{{ site.social.orcid }}" target="_blank">ORCID ↗</a></div>
-  </div>
-  <div class="container footer-bottom">© {{ 'now' | date: '%Y' }} Pankaj K. Mishra</div>
-</footer>
+<footer class="site-footer"><div class="container compact-footer"><span>© {{ 'now' | date: '%Y' }} Pankaj K. Mishra · NIT Hamirpur</span><span><a href="mailto:{{ site.email }}">{{ site.email }}</a> · <a href="{{ site.social.scholar }}" target="_blank">Scholar</a> · <a href="{{ site.social.linkedin }}" target="_blank">LinkedIn</a></span></div></footer>
 <script src="{{ '/assets/js/site.js' | relative_url }}"></script>
 </body>
 </html>
